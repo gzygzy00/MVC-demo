@@ -1,0 +1,16 @@
+#app2 {
+  border: 1px solid blue;
+  height: 50vh;
+  width: 50vw;
+}
+#app2 .tab-bar {
+  display: flex;
+}
+#app2 .tab-bar>li{
+  border: 1px solid #CCC;
+  padding: 14px
+}
+#app2 .tab-content {
+  border: 1px solid #CCC;
+  height: 25vh;
+}

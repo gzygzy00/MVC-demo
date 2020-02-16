@@ -5,7 +5,16 @@
 }
 
 #app1 .output {
+  margin: 5px auto;
+  text-align: center;
 }
 
 #app1 .actions {
+  display: flex;
+  justify-content: center;
+}
+
+#app1 .actions button {
+  margin: 5px;
+  padding: 6px;
 }
