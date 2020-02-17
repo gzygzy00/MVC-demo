@@ -1,0 +1,26 @@
+#app4 {
+  border: 1px solid seagreen;
+  height: 50vh;
+  width: 50vw;
+}
+
+@keyframes change {
+  0% {
+    background-color: hotpink;
+  }
+  100% {
+    background-color: skyblue;
+  }
+}
+
+#app4 .circle {
+  border: 1px dotted #CCCCCC;
+  margin: 10vw;
+  border-radius: 50%;
+  height: 30vw;
+  width: 30vw;
+}
+
+#app4 .circle.active {
+  animation: change 1s infinite linear alternate;
+}
