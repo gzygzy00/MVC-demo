@@ -1,0 +1,18 @@
+#app3 {
+  border: 1px solid peru;
+  height: 50vh;
+  width: 50vw;
+}
+
+#app3 .square {
+  border: 1px solid deeppink;
+  margin-top: 10px;
+  margin-left: 5px;
+  width: 15vw;
+  height: 15vw;
+  transition: transform 1s;
+}
+
+#app3 .square.active {
+  transform: translateX(25vw);
+}
