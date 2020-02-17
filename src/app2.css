@@ -8,9 +8,19 @@
 }
 #app2 .tab-bar>li{
   border: 1px solid #CCC;
-  padding: 14px
+  padding: 14px;
+  width: 50%;
+}
+#app2 .tab-bar>li.selected{
+  background-color: aquamarine;
 }
 #app2 .tab-content {
-  border: 1px solid #CCC;
+  border: 5px solid #CCC;
   height: 25vh;
+}
+#app2 .tab-content>li {
+  display: none;
+}
+#app2 .tab-content>li.active {
+  display: block;
 }
